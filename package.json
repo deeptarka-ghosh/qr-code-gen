@@ -1,0 +1,25 @@
+{
+  "name": "code-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "bwip-js": "^4.7.0",
+    "simple-icons": "^16.0.0",
+    "fflate": "^0.8.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^7.1.0",
+    "@types/qrcode": "^1.5.5",
+    "tsx": "^4.20.0",
+    "@types/node": "^24.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.vite/
+coverage/
+test-results/
+playwright-report/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.local
+premium-audit.json
